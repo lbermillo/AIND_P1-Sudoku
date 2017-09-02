@@ -3,11 +3,11 @@
 
 # Question 1 (Naked Twins)
 Q: How do we use constraint propagation to solve the naked twins problem?  
-A: Constraint propagation was used to solve the naked twins problem by constraining our domain to a unit (row, column, 3x3 square, diagonal) and searching for unsolved duplicate values within each unit that has a length of 2 and making these values our naked pair, if it exists in the unit. We then further constrain the values within each unit in such way that if a naked pair does exist, no other unsolved box in that unit may contain those values in a naked pair, so we remove the naked pair values from any other unsolved values within the unit.
+A: **Constraint propagation was used to solve the naked twins problem by constraining our domain to a unit (row, column, 3x3 square, diagonal) and searching for unsolved duplicate values within each unit that has a length of 2 and making these values our naked pair, if it exists in the unit. We then further constrain the values within each unit in such way that if a naked pair does exist, no other unsolved box in that unit may contain those values in a naked pair, so we remove the naked pair values from any other unsolved values within the unit.**
 
 # Question 2 (Diagonal Sudoku)
 Q: How do we use constraint propagation to solve the diagonal sudoku problem?  
-A: We use contraint propagation to solve the diagonal sudoku problem similar to how we solved regular sudokus, however this time we add another constraint and check both diagonals in our sudoku. We use all methods we learned from class (eliminate, only_choice, and search) to accomplish our solution.
+A: **We use contraint propagation to solve the diagonal sudoku problem similar to how we solved regular sudokus, however this time we add another constraint and check both diagonals in our sudoku. We use all methods we learned from class (eliminate, only_choice, and search) to accomplish our solution.**
 
 ### Install
 
